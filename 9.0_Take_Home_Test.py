@@ -1,42 +1,226 @@
 '''
-10,000 #'s
-Write a program that defines the following three functions:
+HONOR CODE: I solemnly promise that while taking this test I will only use PyCharm or the Internet,
+but I will definitely not ask another person except the instructor. Signed: ______________________
 
-Function #1: Write a function named create_list that takes in a list size and returns a list of random numbers from 1-6. i.e., calling create_list(5) should return 5 random numbers from 1-6. Once you've finished writing your function, copy and paste the following code after it and make sure it works with the function you wrote:
+Remember, for 1-7 record your prediction AND actual. It's not a problem if you are wrong.
+It IS a problem if you don't record your prediction. Make sure you understand HOW the code works.
+'''
 
-INPUT
-my_list = create_list(5)
-print(my_list)
+'''
+1.)
+def f1(x):
+    print(x)
+y = 3
+f1(y)
+'''
 
-OUTPUT
-[2,5,1,6,3] #something like this 
 
-Function #2: Write a function called count_list that takes in a list and a number. Have the function return the number of times the specified number appears in the list. Once you've finished writing your function, copy and paste the following code after it and make sure it works with the function you wrote:
 
-INPUT
-my_list = [1,2,3,3,3,4,2,1]
-count = count_list(my_list,3)
-print(count)
 
-OUTPUT
-3 
+'''
+2.)
+def f2(x):
+    x = x + 1
+    print(x)
+y = 3
+f2(y)
+print(y)
+'''
 
-Function #3: Write a function called average_list that returns the average of the list passed into it. Once you've finished writing your function, copy and paste the following code after it and make sure it works with the function you wrote:
 
-INPUT
-my_list = [1,2,3]
-avg = average_list(my_list)
-print(avg)
 
-OUTPUT
-2 
 
-Now that the functions have been created, use them all in a main program that will:
+'''
+3.)
+def f3(x):
+    x = x + 1
+    print(x)
+x = 3
+f3(x)
+print(x)
+'''
 
-1.) Create a list of 10,000 random numbers from 1 to 6.
 
-2.) Print the count of 1 through 6. (That is, print the number of times 1 appears in the 10,000 and so on.)
 
-3.) Print the average of all 10,000 random numbers.
+
+'''
+4.)
+def f4(x):
+    z = x + 1
+    print(z)
+x = 3
+f4(x)
+print(z)
+'''
+
+
+
+
+'''
+5.)
+def foo(x):
+    x = x + 1
+    print("x=", x)
+ 
+x = 10
+print("x=", x)
+foo(x)
+print("x=", x)
+'''
+
+
+
+
+'''
+6.)
+def f():
+    print("f start")
+    g()
+    h()
+    print("f end")
+ 
+def g():
+    print("g start")
+    h()
+    print("g end")
+ 
+def h():
+    print("h")
+ 
+f()
+'''
+
+
+
+
+'''
+7.)
+def jedi():
+    x = 3
+    print("The last Jedi!")
+ 
+x = 10
+print("x=", x)
+jedi()
+print("x=", x)
+'''
+
+
+'''
+This next section involves finding the mistakes in the code. 
+'''
+
+
+
+'''
+8.) Correct the following code: (Don't let it print out the word ``None'')
+
+def sum(a, b, c):
+    print(a + b + c)
+ 
+print(sum(10, 11, 12))
+'''
+
+
+
+
+'''
+9.) Correct the following code: (x should increase by one, but it doesn't.)
+
+def increase(x):
+    return x + 1
+ 
+x = 10
+print("X is", x, " I will now increase x." )
+increase(x)
+print("X is now", x)
+'''                          
+ 
+  
+  
+  
+  
+'''
+10.) Correct the following code:
+
+def print_hello:
+    print("Hello")
+ 
+print_hello()
+'''
+
+
+
+
+
+'''
+11.) Correct the following code:
+
+def count_to_ten():
+    for i in range[10]:
+        print(i)
+ 
+count_to_ten()
+'''
+
+
+
+
+
+
+'''
+12.) Correct the following code:
+
+def sum_list(list):
+    for i in list:
+        sum = i
+        return sum
+ 
+list = [45, 2, 10, -5, 100]
+print(sum_list(list))
+'''
+
+
+
+
+
+
+'''
+13.) Correct the following code: (This almost reverses the string. What is wrong?)
+
+def reverse(text):
+    result = ""
+    text_length = len(text)
+    for i in range(text_length):
+        result = result + text[i * -1]
+    return result
+ 
+text = "Programming is the coolest thing ever."
+print(reverse(text))
+'''
+
+
+
+
+
+
+'''
+14.) Correct the following code: (if one of the options is not entered it should print the statements)
+
+def get_user_choice():
+    while True:
+        command = input("Command: ")
+        if command = f or command = m or command = s or command = d or command = q:
+            return command
+ 
+        print("Hey, that's not a command. Here are your options:" )
+        print("f - Full speed ahead")
+        print("m - Moderate speed")
+        print("s - Status")
+        print("d - Drink")
+        print("q - Quit")
+ 
+user_command = get_user_choice()
+print("You entered:", user_command)
 
 '''
