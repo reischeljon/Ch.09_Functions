@@ -10,9 +10,11 @@ both three and five print "FizzBuzz". Once you've finished writing your function
 copy and paste the following code after it and make sure it works with the function you wrote:
 
 INPUT
+-----
 fizzbuzz(15)
 
 OUTPUT
+------
 1
 2
 fizz
