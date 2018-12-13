@@ -1,4 +1,4 @@
-<img align="left" src="http://hermonswebsites.com/Classes/CS/python.png"><H2><a href="https://sites.google.com/urbandaleschools.com/pythonjedi/9-functions" target="_blank">Chapter 9 Functions</a></H2>
+<img align="left" src="http://hermonswebsites.com/Classes/CS/python.png"><H2>Chapter 9 Functions</H2>
 
 In this chapter you will be learning about Functions. 
 
