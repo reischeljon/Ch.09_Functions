@@ -12,5 +12,5 @@ In this chapter you will be learning about Functions.
   <li>Fibonacci Function</li>
   <li>10,000 Numbers</li>
   <li>BB8 Function</li>
-  <li>Take Home Test</li>
+  <li>Jedi Training</li>
   </ol>
