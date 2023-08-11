@@ -1,7 +1,7 @@
-#Sign your name:________________
+# 9.0 Jedi Training (45pts)  Name:________________
 
 
-#1.) Correct the following code: (The user's number should be increased by 1 and printed.)
+#1.) Correct the following code: (The user's number should be increased by 1 and printed.) (2pts)
 
 def increase(x):
     return x + 1
@@ -13,7 +13,7 @@ print("Your number has been increased to", x)
  
 
 
-#2.) Correct the following code to print 1-10:
+#2.) Correct the following code to print 1-10:  (2pts)
 
 def count_to_ten:
     for i in range[10]:
@@ -23,7 +23,7 @@ count_to_ten()
 
 
 
-#3.) Correct the following code to sum the list:
+#3.) Correct the following code to sum the list:  (2pts)
 
 def sum_list(list):
     for i in list:
@@ -36,7 +36,7 @@ print(sum_list(list))
 
 
 
-#4.) Correct the following code which should reverse the sentence that is entered.
+#4.) Correct the following code which should reverse the sentence that is entered.  (2pts)
 
 def reverse(text):
     result = ""
@@ -50,7 +50,7 @@ print(reverse(text))
 
 
 
-#5.) Correct the following code: (if one of the options is not entered it should print the statements)
+#5.) Correct the following code: (if one of the options is not entered it should print the statements)  (2pts)
 
 def get_user_choice():
     while True:
@@ -67,4 +67,7 @@ def get_user_choice():
  
 user_command = get_user_choice()
 print("You entered:", user_command)
+
+
+
 
